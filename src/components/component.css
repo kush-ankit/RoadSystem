@@ -1,0 +1,33 @@
+.component-container {
+  flex: 0 0 auto;
+  width: 379px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component-input-container {
+  flex: 0 0 auto;
+  width: 128px;
+  display: flex;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: row;
+}
+.component-button {
+  width: 340px;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  padding-top: 20px;
+  white-space: nowrap;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+@media(max-width: 479px) {
+  .component-input-container {
+    flex-direction: column;
+  }
+}
